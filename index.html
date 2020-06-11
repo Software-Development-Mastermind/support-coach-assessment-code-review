@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Digital Clock App</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <h1>Digital Clock</h1> 
+        <h2>by Ryan</h2>         
+    </header>
+    <main>
+        <table class="mainTable">
+            <tr>
+                <td class="clockHourMin" rowspan = 2>
+                    <div id="clockDisplay"></div>
+                </td>
+                <td class="clockAmPm">
+                    <div id="amPmDisplay"></div>
+                </td>
+            </tr>                
+            <tr>
+                <td class="clockSeconds">
+                    <div id="secondsDisplay"></div>
+                </td>               
+            </tr>
+            <tr>
+                <td class="dayOfWeek" colspan = 2>
+                    <div id="dayOfWeekAndDate"></div>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <input type="button" value="Switch Time Format" class="myButtons" id="btn24hr">
+        <h3>Software Development Mastermind</h3>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
